@@ -27,8 +27,8 @@ def compare_valumes(enemy_health, user_total_attack):
 def get_user_attack():
     total = 0
     attacks_types = {
-        'lite': get_lite_attack,
-        'mid': get_mid_attack,
+        'light': get_lite_attack,
+        'middle': get_mid_attack,
         'hard': get_hard_attack,
     }
 
